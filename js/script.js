@@ -23,4 +23,11 @@ $(document).ready(function(){
     $("#res_03 .dark_bg, #res_03 .close").click(function(){
         $("#res_03 .dark_bg, nav").removeClass("active");
     });
+
+    $("#res_04 .hamburger").click(function(){
+        $(this).siblings("nav").addClass("active");
+    });
+    $("#res_04 .close").click(function(){
+        $(this).closest("nav").removeClass("active");
+    });
 });
