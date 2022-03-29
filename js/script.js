@@ -16,4 +16,11 @@ $(document).ready(function(){
     $("#res_02 .close").click(function(){
         $(this).closest("nav").removeClass("active");
     });
+
+    $("#res_03 .hamburger").click(function(){
+        $(this).siblings(".dark_bg, nav").addClass("active");
+    });
+    $("#res_03 .dark_bg, #res_03 .close").click(function(){
+        $("#res_03 .dark_bg, nav").removeClass("active");
+    });
 });
