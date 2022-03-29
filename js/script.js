@@ -9,4 +9,11 @@ $(document).ready(function(){
             $(this).siblings("nav").stop().slideUp();
         }
     });
+
+    $("#res_02 .hamburger").click(function(){
+        $(this).siblings("nav").addClass("active");
+    });
+    $("#res_02 .close").click(function(){
+        $(this).closest("nav").removeClass("active");
+    });
 });
