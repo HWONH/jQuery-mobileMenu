@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#res_01{width: 377px;height: 640px;margin-left: 200px;border: 1px solid #000;overflow: hidden;}
+#res_01 header{position: relative;}
+#res_01 header .logo{height: 60px;background: #ffffff;text-align: center;border-bottom: 1px solid #999;}
+#res_01 header .logo a{display: inline-block;}
+#res_01 header .logo a img{width: 240px;}
+#res_01 header .hamburger{position: absolute;top: 15px;left: 10px;font-size: 30px;line-height: 1;cursor: pointer;}
+#res_01 header nav{display: none;padding: 10px;background: #000000;}
+#res_01 header nav ul{}
+#res_01 header nav ul li{}
+#res_01 header nav ul li a{display: block;line-height: 30px;font-size: 17px;color: #ffffff;}
+#res_01 section{height: 580px;background-image: url(../img/event-01.jpg);background-size: 100% auto;background-position: 50% 0;}
